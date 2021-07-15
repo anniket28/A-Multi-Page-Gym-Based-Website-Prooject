@@ -1,0 +1,154 @@
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+header::before{
+    background-image: url("/images/gymimg.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:center;
+    background-attachment: fixed;
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top:  0;
+    bottom: 0;
+    opacity: 0.7;
+}
+#box1{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 15px;
+    top:0px;
+    margin: 17px;
+    text-align: center;
+    line-height: 25px;
+    color: red;
+}
+#box1 img{
+    width: 60px;
+}
+#box2{
+    /* border: 2px solid green; */
+    display: block;
+    width: 50%;
+    margin: 45px auto;
+}
+#box2 li{
+    display: inline-block;
+}
+#box2 li a{
+    text-decoration: none;
+    color: red;
+    padding: 3px 20px;
+    margin: 5px 0px;
+    font-size: 23px;
+}
+#box2 li a:hover{
+    /* text-decoration: underline; */
+    background-color: white;
+    color: black;
+}
+#box3{
+    /* border: 2px solid blue; */
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    top:0px;
+    margin: 42px 0px;
+}
+#box3 .btn{
+    cursor: pointer;
+    padding: 7px 7px;
+    margin: 3px 3px;
+    color: red;
+    background-color: rgb(61, 61, 61);
+    font-size: 17px;
+}
+#box3 .btn:hover{
+    /* text-decoration: underline; */
+    background-color: white;
+    color: black;
+}
+.aside{
+    position: absolute;
+    display: inline-block;
+    right: 80px;
+    top: 40px;
+}
+.aside li{
+    list-style: none;
+}
+.aside li button{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 17px;
+    color: red;
+    background-color: rgb(61, 61, 61);
+    cursor: pointer;
+    margin: 5px 0px;
+    display: inline-block;
+    width: 187%; 
+}
+.aside li button:hover{
+    background-color: white;
+    color: black;
+}
+form{
+    border: 2px solid white;
+    border-radius: 5px;
+    display: inline-block;
+    width: 60%;
+    margin-left: 100px;
+    margin-top: 50px;
+    box-sizing: border-box;
+    padding: 15px 15px;
+}
+form h3{
+    text-align: center;
+    /* text-decoration: underline; */
+    padding: 5px 5px;
+    margin: 3px 3px;
+}
+input[type="text"],input[type="number"],input[type="email"]{
+    width:95%;
+    padding: 10px 10px;
+    margin: 5px 5px;
+    /* text-align: center; */
+}
+input[type="submit"],input[type="reset"]{
+    width: 48%;
+    cursor: pointer;
+    padding: 7px 7px;
+    margin: 5px 5px;
+    background-color: blue;
+    color: yellow;
+}
+input[type="submit"]:hover{
+    background-color: green;
+    color: white;
+}
+input[type="reset"]:hover{
+    background-color: green;
+    color: white;
+}
+select{
+    padding: 10px 10px;
+    margin: 5px 5px;    
+}
+/* button{
+    width: 48%;
+    cursor: pointer;
+    padding: 7px 7px;
+    margin: 5px 5px;
+    background-color: blue;
+    color: yellow;
+}
+button:hover{
+    background-color: green;
+    color: white;
+} */

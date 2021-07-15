@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arnie's Gym/Home</title>
+    <link rel="stylesheet" href="/css/index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="box" id="box1">
+        <img src="/images/logo.jpeg" alt="Gym logo" />
+        <div>ARNIE'S GYM</div>
+      </div>
+      <div class="box" id="box2">
+        <ul>
+          <li><a href="/html/index.html">Home</a></li>
+          <li><a href="/html/aboutus.html">About Us</a></li>
+          <li><a href="/html/fitnesscalculator.html">Fitness Calculator</a></li>
+          <li><a href="/html/plans.html">Membership Plans</a></li>
+        </ul>
+      </div>
+      <div class="box" id="box3">
+        <a href="tel:+9115757660"><button class="btn">Call Us</button><a>
+        <a href="mailto:annibhalla2001@gmail.com"><button class="btn">Email Us</button></a>
+        <ul class="aside">
+            <li><a href="https://www.google.com/maps/dir//Gold's+Gym,+C-133,+Ground+Floor,+SAS+Infonet+Building,+Phase+8,+Industrial+Area,+Sahibzada+Ajit+Singh+Nagar,+Punjab+160071/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x390fee8aca533913:0x223c13c40a8cc219?sa=X&ved=2ahUKEwi60Y25yY3xAhU1wzgGHb7xAykQ48ADMAJ6BAgIEDY" target="_blank"><button>Location of Gym</button> </a></li>
+            <li><a href="http://instagram.com" target="_blank" rel="noopener noreferrer"><button>Instagram</button> </a></li>
+            <li><a href="http://facebook.com" target="_blank" rel="noopener noreferrer"><button>Facebook</button> </a></li>
+        </ul>
+      </div>
+    </header>
+    <form action="#">
+      <h3>FORM TO JOIN OUR GYM</h3>
+      <p>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="ENTER YOUR NAME"
+          required
+        />
+      </p>
+      <p>
+        SELECT YOUR GENDER:
+        <select name="gender" id="gender" required>
+          <option value="">---GENDER---</option>
+          <option value="male">MALE</option>
+          <option value="female">FEMALE</option>
+        </select>
+        <p>
+        SELECT YOUR AGE GROUP:
+      <select name="age" id="age" required>
+        <option value="">---AGE GROUP---</option>
+        <option value="16-24">16-24</option>
+        <option value="25-35">25-35</option>
+        <option value="36-45">36-45</option>
+        <option value="46-60">46-60</option>
+      </select>
+      </p>
+      <p>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="ENTER YOUR EMAIL ID"
+          required
+        />
+      </p>
+      <p>
+        <input
+          type="number"
+          name="cont_number"
+          id="cont_number"
+          placeholder="ENTER YOUR CONTACT NUMBER"
+          required
+        />
+      </p>
+      <p>
+        SELECT YOUR PLAN:
+        <select name="gender" id="gender" required>
+          <option value="">---MEMBERSHIP PLAN---</option>
+          <option value="basic">BASIC</option>
+          <option value="cardioandcomfort">CARDIO AND COMFORT</option>
+          <option value="cardioandspa">CARDIO AND SPA</option>
+          <option value="megaplan">ALL IN ONE MEGA PLAN</option>
+        </select>
+        SELECT NUMBER OF MONTHS:
+        <select name="gender" id="gender" required>
+          <option value="">---NUMBER OF MONTHS---</option>
+          <option value="one">ONE MONTH</option>
+          <option value="three">THREE MONTHS</option>
+          <option value="six">SIX MONTHS</option>
+          <option value="12">TWELVE MONTHS</option>
+        </select>
+      </p>
+      <input type="submit" value="SUBMIT" class="btn" />
+      <input type="reset" value="RESET" class="btn" />
+    </form>
+    
+  </body>
+</html>
